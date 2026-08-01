@@ -177,7 +177,7 @@ local refreshment_extract_recipe = {
 	type = "recipe",
 	name = "refreshment-extract",
 	icon = "__AncientKnowledge__/graphics/items/renewable-extract.png",
-	category = "refreshing-process",
+	categories = {"refreshing-process"},
 	subgroup = "refreshing-process",
 	order = "a",
 	enabled = false,
@@ -214,7 +214,7 @@ local nutrient_refreshment = {
 			tint = {r=0.2, g=1, b=0.6, a=1}
 		}
 	},
-	category = "refreshing-process",
+	categories = {"refreshing-process"},
 	subgroup="refreshing-process",
 	order = "b",
 	enabled = false,
@@ -250,7 +250,7 @@ local yumako_refreshment = {
 			tint = {r=0.2, g=1, b=0.6, a=1}
 		}
 	},
-	category = "refreshing-process",
+	categories = {"refreshing-process"},
 	subgroup="refreshing-process",
 	order = "c",
 	enabled = false,
@@ -286,7 +286,7 @@ local jellynut_refreshment = {
 			tint = {r=0.2, g=1, b=0.6, a=1}
 		}
 	},
-	category = "refreshing-process",
+	categories = {"refreshing-process"},
 	subgroup="refreshing-process",
 	order = "d",
 	enabled = false,
@@ -322,7 +322,7 @@ local bioflux_refreshment = {
 			tint = {r=0.2, g=1, b=0.6, a=1}
 		}
 	},
-	category = "refreshing-process",
+	categories = {"refreshing-process"},
 	subgroup="refreshing-process",
 	order = "e",
 	enabled = false,
@@ -358,7 +358,7 @@ local yumako_mesh_refreshment = {
 			tint = {r=0.2, g=1, b=0.6, a=1}
 		}
 	},
-	category = "refreshing-process",
+	categories = {"refreshing-process"},
 	subgroup="refreshing-process",
 	order = "f",
 	enabled = false,
@@ -394,7 +394,7 @@ local jelly_refreshment = {
 			tint = {r=0.2, g=1, b=0.6, a=1}
 		}
 	},
-	category = "refreshing-process",
+	categories = {"refreshing-process"},
 	subgroup="refreshing-process",
 	order = "g",
 	enabled = false,
@@ -430,7 +430,7 @@ local agricultural_science_pack_refreshment = {
 			tint = {r=0.2, g=1, b=0.6, a=1}
 		}
 	},
-	category = "refreshing-process",
+	categories = {"refreshing-process"},
 	subgroup="refreshing-process",
 	order = "h",
 	enabled = false,
